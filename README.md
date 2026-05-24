@@ -40,3 +40,7 @@ Praticar conceitos fundamentais de desenvolvimento front-end, incluindo estrutur
 - Atualização dinâmica de elementos HTML
 - Layout com Flexbox
 - Gradientes e sombras modernas
+
+## Observação
+
+- Projeto desenvolvido para fins educacionais e prática de desenvolvimento front-end.
