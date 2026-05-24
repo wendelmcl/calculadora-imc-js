@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/icons/fontawesome-free-7.2.0-web/css/all.css">
+    <script src="/js/script.js"></script>
+
+    <title>Índice de Massa Corporal</title>
+</head>
+
+<body>
+    <main>
+        <div id="divcoluna" class="divcoluna">
+            <div id="campotitulo" class="campotitulo">
+                <i class="fa-solid fa-heart-pulse" id="heart-pulse"></i>
+            </div>
+            <div id="calculadoraimc" class="calculadoraimc">
+                <h1 id="titulo" class="titulo">Calculadora de <strong id="imc1" class="imc1">IMC</strong></h1>
+                <p id="descricao" class="descricao">Descubra seu Índice de Massa Corporal</p>
+            </div>
+        </div>
+        </div>
+        <section id="section" class="section">
+            <nav id="menu" class="menu">
+                <div id="menu-esquerda" class="menu-esquerda">
+                    <i class="fa-solid fa-heart-pulse" id="heart-pulse1"></i>
+                    <li><a href="#" id="menu1" class="menu1">Calculadora de IMC </a></li>
+                </div>
+                <ul id="menu-direita" class="menu-direita">
+                    <li><a href="#" id="calculadora" class="calculadora">Calculadora</a></li>
+                    <li><a href="#" id="sobre" class="sobre">Sobre</a></li>
+                </ul>
+            </nav>
+            <div id="divlinha" class="divlinha">
+                <section id="section1" class="section1">
+                    <div id="campos" class="campos">
+                        <h2 id="seusdados" class="seusdados">Seus dados</h2>
+                        <form id="formcampos" class="formcampos">
+                            <label for="peso" id="peso" class="peso">Peso(kg)</label>
+                            <input type="number" id="peso1" class="peso1" placeholder="Ex: 70" required>
+                            <label for="altura" id="altura" class="altura">Altura(m)</label>
+                            <input type="number" name="altura1" id="altura1" placeholder="Ex: 1.75" required>
+                            <button type="button" id="botaocalcular" class="botaocalcular"
+                                onclick="calcularIMC(); limparInputs()">Calcular IMC</button>
+                            <button type="button" id="botaolimpar" class="botaolimpar"
+                                onclick="limparInputs()">Limpar</button>
+                        </form>
+                    </div>
+                </section>
+                <section id="section2" class="section1">
+                    <div id="resultadoconteudo" class="resultadoconteudo">
+                        <h2 id="seuresultado" class="seuresultado">Seu resultado</h2>
+                        <h1 id="valorIMC" class="valorIMC">IMC: 22.9</h1>
+                    </div>
+                    <div id="textoresultado" class="textoresultado">
+                        <h3 id="categoriaIMC" class="categoriaIMC">Peso normal</h3>
+                        <p id="resultadoIMC" class="resultadoIMC">Seu peso está dentro da faixa considerado saudável.
+                        </p>
+                        <div id="resultadodescricao" class="resultadodescricao">
+                            <i class="fa-solid fa-circle-info" id="iconeinformacao"></i>
+                            <span id="resultadoinformacao" class="resultadoinformacao">Manter uma alimentação
+                                equilibrada e praticar atividades físicas é essencial para sua
+                                saúde.</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <p id="rodape" class="rodape">*IMC é uma referência. Consulte sempre um profissional de saúde.</p>
+        </section>
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+.root {
+    display: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: linear-gradient(to bottom, 180deg,
+            #E8F8F0 0%,
+            #F3FCF7 40%,
+            #FFFFFF 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: linear-gradient(135deg, #22C55E, #16A34A, #0F766E);
+    width: 750px;
+    min-height: 520px;
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 20px 45px rgba(15, 23, 42, 0.20);
+}
+
+.section .divlinha {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.divcoluna {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    color: #6b7280;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+.menu-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-direita {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+#heart-pulse {
+    font-size: 32px;
+    color: white;
+    background-color: #16A34A;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 18px 0px 0px 0px;
+    height: 32px;
+}
+
+#heart-pulse1 {
+    font-size: 24px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu #menu1 {
+    font-size: 18px;
+}
+
+.menu #calculadora {
+    font-size: 16px;
+}
+
+.menu #sobre {
+    font-size: 16px;
+}
+
+.section .section1 {
+    background-color: white;
+    width: 340px;
+    min-height: 420px;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
+}
+
+.calculadoraimc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+}
+
+.calculadoraimc h1,
+.calculadoraimc p {
+    margin: 0;
+}
+
+.campotitulo {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+#titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.titulo #imc1 {
+    color: #16a34a;
+}
+
+.campotitulo #descricao {
+    font-size: 14px;
+    color: #6b7280;
+}
+
+.seusdados {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.peso {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.altura {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.campos #formcampos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.section #peso1 {
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 16px;
+}
+
+.section #altura1 {
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    font-size: 16px;
+}
+
+.section #botaocalcular {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #22C55E;
+    color: white;
+    cursor: pointer;
+
+}
+
+.section #botaolimpar {
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+
+.section .rodape {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+#resultadodescricao{
+    width: 85%;
+    min-height: 56px;
+    padding: 14px 16px;
+    border-radius: 12px;
+    background-color: #ECFDF5;
+    border: 1px solid #BBF7D0;
+    color: #166534;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+#iconeinformacao{
+    color: #16A34A;
+    font-size: 18px;
+}
+
+.resultadoIMC{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #4B5563;
+    max-width: 280px;
+    margin: 8px auto 0;
+}
+
+.textoresultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.resultadoinformacao{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #166534;
+    text-align: justify;
+}
+
+.textoresultado h3,
+.textoresultado p {
+    margin: 0;
+}
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#section2 h1,
+#section2 h2{
+    margin: 0;
+}
+
+.resultadoconteudo{
+    width: 100%;
+    padding-top: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seuresultado{
+    margin-bottom: 8px;
+
+}
+
+.valorIMC{
+    line-height: 1;
+    margin-bottom: 4px;
+}
